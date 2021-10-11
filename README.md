@@ -1,7 +1,7 @@
 # norsk-tab-complete
 Replace regular letters with Norwegian letters using tab completion. 
 
-Made for myself to input Norwegian letters (æ/ø/å) on a UK ISO layout without changing my Windows language settings, but should work on any and all setups.
+Made for myself to input Norwegian letters (æ/ø/å) and some diacritics used in Norwegian (ò, è and ô) on a UK ISO layout without changing my Windows language settings, but should work on any and all setups.
 
 Created with [AutoHotKey](https://github.com/AutoHotkey/AutoHotkey "AutoHotKey"). The .exe is a direct compilation of the same code that's in the .ahk script.
 
@@ -17,9 +17,15 @@ Type in the longform of the letter (for example `ae`), then press `tab`.
 |AE[tab]|Æ|
 |OE[tab] |Ø |
 |AA[tab]|Å|
+|O^[tab]|Ô|
+|O'[tab]|Ò|
+|E'[tab]|È|
 |ae[tab]|æ|
 |oe[tab]|oe|
 |aa[tab]|å|
+|o^[tab]|ô|
+|o'[tab]|ò|
+|e'[tab]|è|
 
 ### Add to startup
 
